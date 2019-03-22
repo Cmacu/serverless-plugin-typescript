@@ -40,6 +40,9 @@
     "lodash": "^4.17.4",
     "typescript": "^2.2.2"
   },
+  "peerDependencies": {
+    "typescript": ">= 2.2.2"
+  }
   "jest": {
     "transform": {
       ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
